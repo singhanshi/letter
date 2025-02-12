@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Letter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div>
+  <button id="open">Open Letter</button>
+  <button id="reset">Reset Letter</button>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Letter Envelope</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="envelope-wrapper">
+    <div class="envelope close" id="envelope">
+      <div class="front flap"></div>
+      <div class="front pocket"></div>
+      <div class="letter">
+        <div class="words line1">Didii,</div>
+        <div class="words line2">You are my sunshine,</div>
+        <div class="words line3">my only sunshine...</div>
+        <div class="words line4">❤️ Forever Yours, Mithii</div>
+      </div>
+    </div>
+    <div class="hearts">
+      <div class="heart a1"></div>
+      <div class="heart a2"></div>
+      <div class="heart a3"></div>
+
+<div class="flower f1"></div>
+  <div class="flower f2"></div>
+  <div class="flower f3"></div>
+    </div>
+  </div>
+  <div class="reset">
+    <button onclick="toggleEnvelope()">Open/Close Letter</button>
+  </div>
+
+  <script>
+    function toggleEnvelope() {
+      const envelope = document.getElementById('envelope');
+      envelope.classList.toggle('open');
+      envelope.classList.toggle('close');
+    }
+  </script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
